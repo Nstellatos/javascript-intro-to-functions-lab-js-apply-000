@@ -1,15 +1,21 @@
-function shout(string) {
-  return string.toUpperCase()
-}
+//return statement will stop the function and return a value
+// log will log out info in code
+//function is a set of statements that perform a task or calc a value
+// === strict equality
+// == converting equality
+// argument - values that are input into a function (string)
+function shout(string) { //parameter
+  return string.toUpperCase() // input parameter into function
+} // SHOUT
 function whisper(string){
   return string.toLowerCase()
-}
+} // whisper
 function logShout(string){
-  return console.log(string.toUpperCase())
-}
+  console.log(string.toUpperCase())
+} // LOGSHOUT
 function logWhisper(string){
-  return console.log(string.toLowerCase())
-}
+  console.log(string.toLowerCase())
+} //logwhisper
 function sayHiToGrandma(string){
   if (string === string.toLowerCase())
   return "I can't hear you!";
